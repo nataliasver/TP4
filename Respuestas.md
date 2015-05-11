@@ -77,6 +77,6 @@ La expresión no es precisa, ya que se cuentan los caracteres '\n', y no deberí
 #####Respuesta 12  
 Se debe agregar uno o dos printf:  
 
-	printf("La cantidad total de caracteres ingresados es: %d\n", nc)  
-        printf("La cantidad total de lineas es: %d\n",nl);
+	printf("La cantidad total de caracteres ingresados es: %d\n", nc);  
+	printf("La cantidad total de lineas es: %d\n",nl);
 
