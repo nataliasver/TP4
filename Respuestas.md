@@ -1,4 +1,4 @@
-#Respuestas#
+﻿#Respuestas#
 #####Respuesta 1
 La primera expresión del for, inicializa la variable nl y la variable nc en Cero, la primera vez que se ejecuta la sentencia. La coma permite evaluar las expresiones de izquierda a derecha. El tipo y el valor del resultado, son el tipo y valor del operando derecho.  
 Sirve para evaluar dos proposiciones en paralelo. No se trata de un operador.  
@@ -75,7 +75,8 @@ La expresión no es precisa, ya que se cuentan los caracteres '\n', y no deberí
 
 ****
 #####Respuesta 12  
-Se debe agregar un printf:  
+Se debe agregar uno o dos printf:  
 
-	printf("La cantidad total de caracteres ingresados es: %d \n La cantidad total de lineas es: %d", nc , nl);
+	printf("La cantidad total de caracteres ingresados es: %d\n", nc)  
+        printf("La cantidad total de lineas es: %d\n",nl);
 
